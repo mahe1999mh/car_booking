@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "description": "I have been using OWN YOUR DREAM CAR for my Car service needs for over a years now. I have never had any problems with their service. Their customer support is always responsive and helpful. I would recommend OEN YOUR DREAM CAR to anyone looking for a reliable Car provider.",
+        "image": "https://i.ibb.co/HYRyjct/matthew-hamilton-t-NCH0s-KSZb-A-unsplash.jpg",
+        "customer_name": "Roopika"
+    },
+    {
+        "id": 2,
+        "description": "Their customer support is Excellent Service! and they are always available to help with any issues we have. Their prices are also very competitive.",
+        "image": "https://i.ibb.co/YhsLyGk/ajin-k-s-TEua7-UCKlto-unsplash.jpg",
+        "customer_name": "Suman"
+    },
+    {
+        "id": 3,
+        "description": "Endorsed by industry experts, OWN YOUR DREAM CAR is the Car solution you can trust. With years of experience in the field, we provide fast, reliable and secure Car services.",
+        "image": "https://i.ibb.co/CMvwkhL/wendell-fernandes-Aiaamj-U8-UY-unsplash.jpg",
+        "customer_name": "Ashwini"
+    }
+]
