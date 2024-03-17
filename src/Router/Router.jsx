@@ -16,6 +16,7 @@ import PrivateUpdate from "../PrivateRoute/PrivateUpdate/PrivateUpdate";
 import PrivateMyCart from "../PrivateRoute/PrivateMyCart/PrivateMyCart";
 import AllCars from "../Components/AllCars/AllCars";
 import Footer from "../Components/Footer/Footer";
+import CarServiceList from "../Pages/service/service";
 
 const MyCreatedRouter = createBrowserRouter([
     {
@@ -46,6 +47,10 @@ const MyCreatedRouter = createBrowserRouter([
             {
                 path:'/addProduct',
                 element: <PrivateAddProduct> <AddProduct></AddProduct> </PrivateAddProduct>
+            },
+            {
+                path:'/service',
+                element: <PrivateAddProduct> <CarServiceList/> </PrivateAddProduct>
             },
             {
                 path:"updateProduct/:id",

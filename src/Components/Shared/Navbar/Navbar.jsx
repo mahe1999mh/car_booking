@@ -178,6 +178,15 @@ const Navbar = () => {
           </NavLink>
 
           <NavLink
+            to="/service"
+            className={({ isActive, isPending }) =>
+              isActive ? "text-[#E02C6D] underline" : isPending ? "pending" : ""
+            }
+          >
+            <li className="text-[16px] ml-4">Service</li>
+          </NavLink>
+
+          <NavLink
             to="/myCart"
             className={({ isActive, isPending }) =>
               isActive ? "text-[#E02C6D] underline" : isPending ? "pending" : ""
