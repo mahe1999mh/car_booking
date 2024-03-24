@@ -1,0 +1,28 @@
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  }
+  
+  .image{
+    width: 250px;
+    height: 150px;
+    object-fit: fill;
+  }
+  
+  button{
+    width: 100px;
+    padding: 10px;
+    background-color: rgb(59, 93, 218);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+  margin: 10px 0;
+  }
+  
