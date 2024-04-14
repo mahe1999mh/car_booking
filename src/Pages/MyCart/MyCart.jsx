@@ -157,7 +157,8 @@ const MyCart = () => {
                 >
                   Delete
                 </button>
-                <button onClick={() => displayRazorPay(formData)}>Proceed </button>
+                <button style={{width:"200px"}} onClick={() => displayRazorPay(formData)}>{`Proceed Payment Rs${formData?.onroadprice}`} </button>
+
               </div>
             </div>
           </div>
